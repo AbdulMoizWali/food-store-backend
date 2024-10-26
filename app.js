@@ -1,11 +1,11 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const connectDB = require("./config/db");
-const userRoutes = require("./routes/userRoutes");
-const uploadRoutes = require("./routes/uploadRoutes");
-const restaurantRoutes = require("./routes/restaurantRoutes");
-const foodRoutes = require("./routes/foodRoutes");
-const orderRoutes = require("./routes/orderRoutes");
+const connectDB = require("./api/config/db");
+const userRoutes = require("./api/routes/userRoutes");
+const uploadRoutes = require("./api/routes/uploadRoutes");
+const restaurantRoutes = require("./api/routes/restaurantRoutes");
+const foodRoutes = require("./api/routes/foodRoutes");
+const orderRoutes = require("./api/routes/orderRoutes");
 const path = require("path");
 
 dotenv.config();
